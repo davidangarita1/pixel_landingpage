@@ -1,0 +1,44 @@
+.container {
+    max-width: 950px;
+}
+
+
+#header {
+    height: 170px;
+    width: 100%;
+    background: #343740;
+    border-bottom: 10px solid #666970;
+}
+
+#header h2{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #07AC8F;
+}
+
+#header p{
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    max-width: 150px;
+    min-height: 160px;
+    background: white;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+#camara {
+    
+}
+
+#slider img {
+    width: calc(100% - 14px);
+}
