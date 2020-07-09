@@ -2,6 +2,14 @@
     max-width: 950px;
 }
 
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container{
+    padding-right: 0px;
+ }
+
 
 #header {
     height: 170px;
@@ -33,12 +41,27 @@
     justify-content: center;
 }
 
-
-
-#camara {
-    
+#slider img {
+    width: 100%;
 }
 
-#slider img {
-    width: calc(100% - 14px);
+#info {
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+#brillo {
+    height: 190px;
+    background: #00AC90;
+}
+
+#lupa {
+    height: 190px;
+    background: #066480;
+}
+
+#camara {
+    height: 190px;
+    background: #343740;
 }
