@@ -1,0 +1,24 @@
+@media (max-width: 1195px) {
+    #header h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #header p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #header h2{
+        font-size: 20px;
+    }
+    
+    #header p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+576

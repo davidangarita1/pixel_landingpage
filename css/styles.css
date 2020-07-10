@@ -3,10 +3,10 @@
     box-shadow: 0px 0px 10px #cccccc;
 } */
 
-/* .col {
+.col {
     min-height: 160px;
     border: 1px solid blue;
-} */
+}
 
 div.col {
     padding-left: 0px;
@@ -20,7 +20,7 @@ div.col {
     }
 
 #header {
-    height: 160px;
+    min-height: 160px;
     background: #343740;
     border-bottom: 10px solid #666970;
 }
@@ -130,7 +130,7 @@ div.col {
     list-style: none;
 }
 
-#gallery img:hover {
+#gallery1 img:hover {
     transform: scale(1.05);
 }
 
