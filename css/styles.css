@@ -218,7 +218,7 @@ div.col {
 }  
 
 #basic {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #basic li{
@@ -241,7 +241,116 @@ div.col {
     background: #076480;
 }
 
+#basic:hover{
+    box-shadow: 0px 0px 5px #076480;
+}
+
 #basic h6 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+#simple {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#simple li{
+    font-weight: 500;
+}
+
+#simple li strong{
+    font-weight: 600;
+    color: #00ac90;
+    font-size: 25px;
+}
+
+#simple h4 {
+    color: white;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+#simple .head2{
+    background: #00ac90;
+}
+
+#simple:hover{
+    box-shadow: 0px 0px 5px #00ac90;
+}
+
+#simple h6 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+#comercial {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#comercial li{
+    font-weight: 500;
+}
+
+#comercial li strong{
+    font-weight: 600;
+    color: #343740;
+    font-size: 25px;
+}
+
+#comercial h4 {
+    color: white;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+#comercial .head3{
+    background: #343740;
+}
+
+#comercial:hover{
+    box-shadow: 0px 0px 5px #343740;
+}
+
+#comercial h6 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+#stock {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#stock li{
+    font-weight: 500;
+}
+
+#stock li strong{
+    font-weight: 600;
+    color: #6D5EA1;
+    font-size: 25px;
+}
+
+#stock h4 {
+    color: white;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+#stock .head4{
+    background: #6D5EA1;
+}
+
+#stock:hover{
+    box-shadow: 0px 0px 5px #6D5EA1;
+}
+
+#stock h6 {
     color: white;
     font-size: 15px;
     font-weight: lighter;
