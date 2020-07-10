@@ -197,4 +197,40 @@ div.col {
     transform: scale(1.05);
   }
   
-  
+  .gray {
+      color: #00ac90;
+      background: #d6d7d7 !important;
+      height: 30px;
+      font-weight: bold;
+      font-family: 'Raleway', sans-serif !important;
+  }
+
+  .gray h5 {
+      font-size: 25px;
+      line-height: 5px;
+  }
+
+  .gray span {
+      font-size: 15px;
+  }
+
+  #basic {
+      background: #076480;
+  }
+
+  #basic h4 {
+    color: white;
+    font-size: 33px;
+    line-height: 50px;
+    background: #076480;
+    font-style: Black 900 italic;
+}
+
+#basic h6 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: start;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
