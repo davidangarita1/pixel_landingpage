@@ -19,6 +19,23 @@
         font-size: 10px;
         text-align: center;
     }
+    #wsp img{
+        width: 50px;
+        height: 50px;
+
+        right: 15px;
+        bottom: 15px;
+
+      }
 }
 
-576
+@media (max-width: 576px) {
+    #logo {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    #logo img{
+        width: 80px;
+    }
+}
