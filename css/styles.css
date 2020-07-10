@@ -8,14 +8,16 @@
     border: 1px solid blue;
 } */
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 div.col {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-* {
-    font-family: 'Raleway', sans-serif !important;
-}
+
 
 .carousel-indicators li {
     width: 13px !important;
@@ -190,47 +192,58 @@ div.col {
     cursor: pointer;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-  }
-  
-  #wsp img:hover {
+}
+
+#wsp img:hover {
     filter: grayscale(50%);
     transform: scale(1.05);
-  }
+}
+
+
+.gray {
+    color: #00ac90;
+    background: #d6d7d7 !important;
+    height: 30px;
+    font-style: black;
+    text-align: center;
+} 
   
-  .gray {
-      color: #00ac90;
-      background: #d6d7d7 !important;
-      height: 30px;
-      font-weight: bold;
-      font-family: 'Raleway', sans-serif !important;
-  }
+.gray h5 {
+    font-size: 30px;
+    line-height: 5px;
+}
 
-  .gray h5 {
-      font-size: 25px;
-      line-height: 5px;
-  }
+.gray span {
+    font-size: 20px;
+}  
 
-  .gray span {
-      font-size: 15px;
-  }
+#basic {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 
-  #basic {
-      background: #076480;
-  }
+#basic li{
+    font-weight: 500;
+}
 
-  #basic h4 {
+#basic li strong{
+    font-weight: 600;
+    color: #076480;
+    font-size: 25px;
+}
+
+#basic h4 {
     color: white;
-    font-size: 33px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+#basic .head {
     background: #076480;
-    font-style: Black 900 italic;
 }
 
 #basic h6 {
     color: white;
     font-size: 15px;
-    font-weight: 100;
-    text-align: start;
+    font-weight: lighter;
     margin-top: -20px;
-    margin-bottom: 20px;
 }
