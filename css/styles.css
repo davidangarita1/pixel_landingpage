@@ -177,6 +177,42 @@ div.col {
     font-size: 13px;
 }
 
+
+#contacto .social {
+    padding-top: 20px;
+}
+
+#contacto .social a {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#contacto .social a:hover .fa-instagram{
+    transform: scale(1.3);
+    color: violet;
+}
+
+#contacto .social a:hover .fa-facebook{
+    transform: scale(1.3);
+    color: rgb(84, 133, 238);
+}
+
+#contacto .social a:hover .fa-behance{
+    transform: scale(1.3);
+}
+
+#contacto .social a:hover .fa-linkedin{
+    transform: scale(1.3);
+    color: rgb(84, 133, 238);
+}
+
+#contacto .social a:hover .fa-whatsapp{
+    transform: scale(1.3);
+    color: rgb(69, 207, 103);
+}
+
 #main-footer {
     background-color: #00ad91;
     color: #FFFFFF;
