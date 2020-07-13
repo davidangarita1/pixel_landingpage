@@ -438,3 +438,17 @@ div.col {
 #vistas {
     color: white;
 }
+
+
+
+#section-raya {
+    display: flex;
+}
+
+#section-raya i {
+    border-left: 1px solid #00ac90;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+

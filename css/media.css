@@ -21,6 +21,12 @@
     }
 }
 
+@media (max-width: 850px) {
+    #lista-raya i{
+        margin-bottom: 48px;
+    }
+}
+
 @media (max-width: 768px) {
     #header h2{
         font-size: 20px;
@@ -38,6 +44,13 @@
         bottom: 15px;
 
       }
+      #section-raya i {
+        border-left: none;
+    }
+
+    #lista-raya i{
+        margin-bottom: 28px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -48,5 +61,21 @@
     }
     #logo img{
         width: 80px;
+    }
+
+    #lista-raya i{
+        margin-bottom: 29px;
+    }
+}
+
+@media (max-width: 496px) {
+    #lista-raya i{
+        margin-bottom: 29px;
+    }
+}
+
+@media (max-width: 493px) {
+    #lista-raya i{
+        margin-bottom: 45px;
     }
 }
