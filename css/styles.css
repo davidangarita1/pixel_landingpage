@@ -18,9 +18,13 @@ div.col {
 }
 
 
-/* #container {
+#container {
     max-width: 1500px;
-} */
+}
+
+.contenedor {
+    max-width: 1200px;
+}
 
 .carousel-indicators li {
     width: 13px !important;
@@ -114,6 +118,8 @@ div.col {
 
 #section1 {
     background: #f2f2f2;
+    display: grid;
+    justify-content: center;
 }
 
 .articles {
