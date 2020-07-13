@@ -357,24 +357,30 @@ div.col {
     margin-top: -20px;
 }
 
-#raya {
-    border-left: 1px solid #0fa7c6;
+#lista-raya {
+    display: flex;
 }
 
-#raya ul {
-    margin-left: -88px;
+#lista-raya i {
+    border-left: 1px solid #0fa7c6;
+    margin-top: 19px;
+    margin-bottom: 29px;
+}
+
+#lista-raya ul {
+    margin-left: -40px;
     list-style-type: none;
     color: #8d8e8d;
 }
 
-#raya li{
+#lista-raya li{
     background: #fff url("../img/assets/guion.png") 0 3px no-repeat;
     padding: 0 0 0 25px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-#raya ul li p {
+#lista-raya ul li p {
     margin-top: -10px;
     font-style: italic;
 }
