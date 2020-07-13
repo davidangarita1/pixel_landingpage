@@ -18,6 +18,9 @@ div.col {
 }
 
 
+/* #container {
+    max-width: 1500px;
+} */
 
 .carousel-indicators li {
     width: 13px !important;
