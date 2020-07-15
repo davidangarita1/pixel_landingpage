@@ -72,10 +72,9 @@
 		font-size: 18px;
 	}
 	.ct-box img{
-		max-width: 50%;
+		max-height: 250px;
 	}
 	.ct-box .inner{
-		height: 100px;
 		padding: 10px;
 	}
 }
