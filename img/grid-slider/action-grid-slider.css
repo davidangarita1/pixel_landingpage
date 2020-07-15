@@ -1,10 +1,13 @@
 .ct-box-slider{
 	margin-right: -15px;
-	border-right: 30px solid #00ad91;
+	padding-right: -15px;
+	border-right: 50px solid #00ad91;
 }
 @media (max-width: 991px){
 	.ct-box-slider{
 		margin-left: -15px;
+		border-right: none;
+		border-bottom: 50px solid #00ad91;
 	}
 }
 .ct-box-slider__arrows .slick-arrow{
@@ -33,7 +36,7 @@
 	max-width: 100%;
 }
 .ct-box .inner{
-	background: #f6f4f4;
+	background: white;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -49,7 +52,7 @@
 	flex-direction: column;
 	text-align: center;
 	padding: 15px 25px;
-	height: 200px;
+	height: 250px;
   cursor: pointer;
 }
 .ct-box .inner .fa {
@@ -72,7 +75,7 @@
 		max-width: 50%;
 	}
 	.ct-box .inner{
-		height: 150px;
+		height: 100px;
 		padding: 10px;
 	}
 }
