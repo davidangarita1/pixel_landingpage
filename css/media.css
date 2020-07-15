@@ -79,3 +79,9 @@
         margin-bottom: 45px;
     }
 }
+
+@media (max-width: 370px) {
+    #lista-raya i{
+        margin-bottom: 30px;
+    }
+}
