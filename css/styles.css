@@ -19,11 +19,17 @@ div.col {
 
 
 #container {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .contenedor {
     max-width: 1200px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contenedor h4 {
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 .carousel-indicators li {
@@ -145,11 +151,22 @@ div.col {
     list-style: none;
 }
 
+#gallery1 {
+    display: grid;
+    justify-content: center;
+}
+
 #gallery1 img:hover {
     transform: scale(1.05);
 }
 
 #precios {
+    
+    display: grid;
+    justify-content: center;
+}
+
+.bgp {
     background: #f2f2f2;
 }
 
