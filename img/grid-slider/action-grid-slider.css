@@ -9,7 +9,9 @@
 	font-size: 23px;
 	display: block;
 	color: #000;
+	margin: 10px;
 }
+
 .ct-box .hover{
 	display: none;
 }
@@ -29,12 +31,8 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	text-align: center;
 	height: 300px;
   	cursor: pointer;
-}
-.ct-box .inner .fa {
-  font-size: 64px;
 }
 
 .ct-box:hover .normal{
@@ -57,7 +55,7 @@
 		font-size: 18px;
 	}
 	.ct-box img{
-		max-height: 200px;
+		max-width: 150px;
 	}
 	.ct-box .inner{
 		padding: 10px;

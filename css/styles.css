@@ -27,10 +27,16 @@ div.col {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.contenedor h4 {
+.contenedor h4{
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 600;
+
 }
+
+.contenedor p{
+    font-weight: 600;
+}
+
 
 .carousel-indicators li {
     width: 13px !important;
@@ -103,7 +109,7 @@ div.col {
 }
 
 .brillo, .lupa, .camara {
-    height: 250px;
+    max-height: 250px;
     display: grid;
     justify-content: center;
 }
@@ -125,6 +131,10 @@ div.col {
 .brillo img, .lupa img, .camara img{
     justify-self: center;
     height: 50px;
+}
+
+.lupa img {
+    padding-bottom: 10px;
 }
 
 #section1 {
@@ -474,8 +484,8 @@ div.col {
 }
 
 #section-raya i {
-    border-left: 1px solid #00ac90;
-    margin-top: 100px;
+    border-left: 0.5px solid #00ac90;
+    margin-top: 60px;
     margin-bottom: 100px;
 }
 
