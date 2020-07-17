@@ -1,40 +1,19 @@
 .ct-box-slider{
 	margin-right: -15px;
 	padding-right: -15px;
-	border-right: 50px solid #00ad91;
+	border-right: 70px solid #00ad91;
 }
-@media (max-width: 991px){
-	.ct-box-slider{
-		margin-left: -15px;
-		border-right: none;
-		border-bottom: 50px solid #00ad91;
-	}
-}
-.ct-box-slider__arrows .slick-arrow{
-	padding: 0 2px 0 0;
-	opacity: 0.7;
-}
-.ct-box-slider__arrows .slick-arrow:hover{
-	opacity: 0.9;
-}
-.ct-box-slider__arrows .slick-arrow:hover:active{
-	opacity: 0.55;
-}
+
 .ct-box{
 	font-family: 'stenciletta-solid', sans-serif;
 	font-size: 23px;
-	line-height: 1.15;
 	display: block;
 	color: #000;
 }
 .ct-box .hover{
 	display: none;
 }
-.ct-box span{
-	padding-top: 15px;
-	display: block;
-	max-width: 100%;
-}
+
 .ct-box .inner{
 	background: white;
 	display: -webkit-box;
@@ -51,28 +30,34 @@
 	-ms-flex-direction: column;
 	flex-direction: column;
 	text-align: center;
-	padding: 15px 25px;
-	height: 250px;
-  cursor: pointer;
+	height: 300px;
+  	cursor: pointer;
 }
 .ct-box .inner .fa {
   font-size: 64px;
 }
-.ct-box:hover{
-	color: #00719b;
-}
+
 .ct-box:hover .normal{
 	display: none;
 }
 .ct-box:hover .hover{
 	display: block;
 }
+
+@media (max-width: 991px){
+	.ct-box-slider{
+		margin-left: -15px;
+		border-right: none;
+		border-bottom: 50px solid #00ad91;
+	}
+}
+
 @media (max-width: 479px){
 	.ct-box{
 		font-size: 18px;
 	}
 	.ct-box img{
-		max-height: 250px;
+		max-height: 200px;
 	}
 	.ct-box .inner{
 		padding: 10px;

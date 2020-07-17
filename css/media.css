@@ -45,7 +45,11 @@
 
       }
       #section-raya i {
+        visibility: hidden;
         border-left: none;
+    }
+    #section raya {
+        margin-left: -30px;
     }
 
     #lista-raya i{

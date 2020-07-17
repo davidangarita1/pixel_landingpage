@@ -86,6 +86,10 @@ div.col {
     color: white;
 }
 
+#info p, #info h3 {
+    font-weight: 700;
+}
+
 .brillo {
     background: #00AC90;
 }
@@ -99,7 +103,7 @@ div.col {
 }
 
 .brillo, .lupa, .camara {
-    height: 300px;
+    height: 250px;
     display: grid;
     justify-content: center;
 }
@@ -120,12 +124,17 @@ div.col {
 
 .brillo img, .lupa img, .camara img{
     justify-self: center;
+    height: 50px;
 }
 
 #section1 {
     background: #f2f2f2;
     display: grid;
     justify-content: center;
+}
+
+#section1 {
+    font-weight: 700;
 }
 
 .articles {
@@ -161,13 +170,9 @@ div.col {
 }
 
 #precios {
-    
+    background: #f2f2f2;
     display: grid;
     justify-content: center;
-}
-
-.bgp {
-    background: #f2f2f2;
 }
 
 #contacto {
@@ -185,7 +190,7 @@ div.col {
     content: "";
     display: block;
     width: 50px;
-    height: 5px;
+    height: 2px;
     background-color: #00ad91;
     margin-top: 5px;
 }
@@ -193,14 +198,20 @@ div.col {
 #contacto h2 {
     display: inline-block;
     font-weight: 700;
+    font-size: 35px;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+#contacto h3 {
+    font-weight: 700;
 }
 
 #contacto p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 
@@ -234,24 +245,19 @@ div.col {
     color: rgb(84, 133, 238);
 }
 
-#contacto .social a:hover .fa-whatsapp{
-    transform: scale(1.3);
-    color: rgb(69, 207, 103);
-}
-
 #main-footer {
     background-color: #00ad91;
     color: #FFFFFF;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 #wsp img{
     width: 70px;
     height: 70px;
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 70px;
+    bottom: 50px;
     cursor: pointer;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
@@ -454,9 +460,14 @@ div.col {
 
 #vistas {
     color: white;
+    height: 550px;
 }
 
-
+#vistas p {
+    margin-top: 50px;
+    font-family: 'ubuntu';
+    font-weight: 800;
+}
 
 #section-raya {
     display: flex;

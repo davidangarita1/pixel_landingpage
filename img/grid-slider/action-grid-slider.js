@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.ct-box-slider').slick({
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         arrows: false,
     });
