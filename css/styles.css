@@ -26,6 +26,18 @@
     .contenedor p{
         font-weight: 600;
     }
+    .bga {
+        background: #076480;
+    }
+    .bgv {
+        background: #00AC90;
+    }
+    .bgn {
+        background: #343740;
+    }
+    .bgg {
+        background: #808287;
+    }
 /* /Generales */
 
 /* Header */
@@ -76,31 +88,18 @@
     #info p, #info h3 {
         font-weight: 700;
     }
-
-    .brillo {
-        background: #00AC90;
-    }
-
-    .lupa {
-        background: #066480;
-    }
-
-    .camara {
-        background: #343740; 
-    }
-
-    .brillo, .lupa, .camara {
+    #brillo, #lupa, #camara {
         max-height: 250px;
         display: grid;
         justify-content: center;
     }
 
-    .brillo h3, .lupa h3, .camara h3{
+    #brillo h3, #lupa h3, #camara h3{
         text-align: center;
         margin-top: 20px;
     }
 
-    .brillo p, .lupa p, .camara p{
+    #brillo p, #lupa p, #camara p{
         text-transform: initial;
         font-size: 13px;
         margin-top: 20px;
@@ -109,12 +108,12 @@
         text-align: justify;
     }
 
-    .brillo img, .lupa img, .camara img{
+    #brillo img, #lupa img, #camara img{
         justify-self: center;
         height: 50px;
     }
 
-    .lupa img {
+    #lupa img {
         padding-bottom: 10px;
     }
 /* /Info */
@@ -198,7 +197,6 @@
     }
     #vistas .ctexto {
         color: white;
-        background: #343740;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -222,7 +220,7 @@
     }
     .card {
         max-width: 370px;
-        min-height: 500px;
+        max-height: 500px;
         font-family: 'Ubuntu', sans-serif;
     }
     .card h4 {
@@ -298,28 +296,35 @@
         font-size: 30px;
         font-weight: bold;
     }
+    .head {
+        min-height: 100px;
+    }
     #basic .head {
         background: #076480;
-        min-height: 100px;
     }
-    #basic li strong{
+    #basic li strong {
         color: #076480;
     }
-    #simple .head2{
+    #simple .head {
         background: #00ac90;
-        min-height: 100px;
     }
-    #simple li strong{
+    #simple li strong {
         color: #00ac90;
     }
-    #comercial .head3{
+    #comercial .head {
         background: #343740;
-        min-height: 100px;
     }
     #comercial li strong{
         color: #343740;
     }
 /* /Precios */
+
+/* data */
+    .di {
+        height: 100px;
+        color: white;
+    }
+/* /data2 */
 
 /* condiciones */
     #lista-raya {
