@@ -22,6 +22,15 @@
     #contacto h3 {
         font-size: 20px;
     }
+    #condiciones .puzzle {
+        margin-top: 0px;
+    }
+    #vistas {
+        border-right: none;
+    }
+    #vistas p {
+        padding-right: 0px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -55,7 +64,16 @@
     #lista-raya i{
         margin-bottom: 28px;
     }
-}
+    #myCarousel img {
+        height: 300px;
+        width: 300px;
+    }
+    #myCarousel .col-sm-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        margin: 0;
+    }
 
 @media (max-width: 576px) {
     #logo {
@@ -69,6 +87,10 @@
 
     #lista-raya i{
         margin-bottom: 29px;
+    }
+    #myCarousel img {
+        height: 200px;
+        width: 200px;
     }
 }
 
