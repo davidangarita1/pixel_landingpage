@@ -193,94 +193,104 @@
         display: grid;
         justify-content: center;
     }
-
+    .card {
+        max-width: 370px;
+        min-height: 500px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .card h4 {
+        color: white;
+        font-size: 40px;
+        line-height: 35px;
+        position: absolute;
+        top: 15px;
+        left: 60px;
+        letter-spacing: 0px;
+    }
+    .card h6 {
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: -10px;
+        position: absolute;
+        top: 57px;
+        left: 60px;
+    }
+    .card:hover {
+        box-shadow: 0px 0px 5px #343740;
+    }
+    .card img{
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        height: 60px;
+    }
     .gray {
         color: #00ac90;
         background: #d6d7d7 !important;
         height: 60px;
         text-align: center;
         font-weight: bold;
-    } 
-    
+    }  
     .gray h5 {
         font-size: 45px;
-        line-height: 50%;
+        line-height: 70%;
         font-weight: bold;
     }
-
     .gray span {
         font-weight: 600;
         font-size: 30px;
     }
-
     .lista-precios {
+        padding-bottom: 20px;
         margin-left: 25px;
         margin-right: 30px;
         list-style-type: none;
     }
-
     .lista-precios li {
-        background: url("../img/assets/Asset7.png") no-repeat;
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-left: 50px;
-        padding-bottom: 10px;
-        font-weight: 500;
+        /* background: url("../img/assets/Asset7.png") no-repeat; */
+        position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 45px;
+        font-weight: normal;
+        color: #626262;
+        font-size: 19px;
     }
-
+    .lista-precios li:before {
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        content: url("../img/assets/Asset7.png");
+    }
+    .lista-precios li:nth-of-type(1) {
+        /* border-bottom: 1px solid rgba(0, 0, 0, .125); */
+        border-top: none;
+    }
     .lista-precios li strong {
-        font-size: 33px;
-        font-weight: 900;
+        font-size: 30px;
+        font-weight: bold;
     }
-
-    .card {
-        max-width: 370px;
-        font-family: 'Ubuntu', sans-serif;
+    #basic .head {
+        background: #076480;
+        min-height: 100px;
     }
-
-    .card h4 {
-        color: white;
-        font-size: 40px;
-        line-height: 35px;
-    }
-
-    .card h6 {
-        color: white;
-        font-size: 18px;
-        font-weight: 500;
-        margin-top: -30px;
-    }
-
-    .card:hover {
-        box-shadow: 0px 0px 5px #343740;
-    }
-
-    .card img {
-        height: 70px;
-    }
-
     #basic li strong{
         color: #076480;
     }
-
-    #basic .head {
-        background: #076480;
+    #simple .head2{
+        background: #00ac90;
+        min-height: 100px;
     }
-
     #simple li strong{
         color: #00ac90;
     }
-
-    #simple .head2{
-        background: #00ac90;
-    }
-
-    #comercial li strong{
-        color: #343740;
-    }
-
     #comercial .head3{
         background: #343740;
+        min-height: 100px;
+    }
+    #comercial li strong{
+        color: #343740;
     }
 /* /Precios */
 
