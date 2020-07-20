@@ -74,6 +74,22 @@
         padding-top: 5px;
         margin: 0;
     }
+    #precios .contenedor {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    #condiciones .contenedor .col-12:nth-of-type(1) {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    #section1 .row{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 @media (max-width: 576px) {
     #logo {
