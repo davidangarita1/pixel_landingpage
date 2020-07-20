@@ -209,6 +209,30 @@
         font-size: 19px;
         font-weight: normal;
     }
+    #vistas .carousel-control-prev-icon,
+    #vistas .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none !important;
+    }
+
+    #vistas .carousel-control-next-icon:after
+    {
+    content: "\f054";
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #343740;
+    }
+
+    #vistas .carousel-control-prev-icon:after {
+    content: "\f053";
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #343740;
+    }
 /* Vistas */
 
 
@@ -321,7 +345,7 @@
 
 /* data */
     .di {
-        height: 100px;
+        min-height: 100px;
         color: white;
     }
 /* /data2 */
