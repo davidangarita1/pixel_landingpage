@@ -381,6 +381,8 @@
 
     #text-cond {
         color: #8d8e8d;
+        font-family: 'Ubuntu';
+        font-weight: normal;
     }
     #condiciones {
         display: flex;
