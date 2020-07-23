@@ -1,26 +1,19 @@
 /* Generales */
-    body {
-        font-family: 'Raleway', sans-serif;
-    }
-
     div.col {
         padding-left: 0px;
         padding-right: 0px;
     }
 
     #container {
-        max-width: 1400px;
+        width: 1400px;
     }
 
     .contenedor {
-        max-width: 1200px;
-        font-family: 'Ubuntu', sans-serif;
+        max-width: 1343px;
     }
 
     .contenedor h4{
         letter-spacing: 2px;
-        font-weight: 600;
-
     }
 
     .contenedor p{
@@ -88,7 +81,8 @@
     #info p {
         font-weight: 500 !important;
         font-size: 14px !important;
-        
+        font-family: 'Ubuntu';
+        letter-spacing: .5px;
     }
     #info h3 {
         font-weight: bold !important;
@@ -98,6 +92,7 @@
     }
     #brillo, #lupa, #camara {
         height: 284px;
+        width: 466.667px;
         display: grid;
         justify-content: center;
     }
@@ -221,12 +216,15 @@
         justify-content: center;
     }
     #vistas .caja {
-        width: 500px;
+        width: 400px;
+    }
+    #vistas .caja img {
+        width: 245.258px;
     }
     #vistas p {
         font-family: 'ubuntu';
-        font-size: 19px;
-        font-weight: normal;
+        font-weight: 400 !important;
+        font-size: 17px !important;
     }
     #vistas .carousel-control-prev-icon,
     #vistas .carousel-control-next-icon {
@@ -260,25 +258,32 @@
         background: #f2f2f2;
         display: grid;
         justify-content: center;
+        align-items: center;
+    }
+    #precios .col-12 {
+        display: grid;
+        justify-content: center;
     }
     .card {
-        max-width: 370px;
-        max-height: 500px;
-        font-family: 'Ubuntu', sans-serif;
+        width: 290px;
+        min-height: 436.114px;
+        font-family: 'Ubuntu' !important;
+        justify-content: center;
     }
     .card h4 {
         color: white;
-        font-size: 40px;
+        font-size: 35.46px;
+        font-weight: bolder !important;
         line-height: 35px;
         position: absolute;
         top: 15px;
         left: 60px;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
     }
     .card h6 {
         color: white;
-        font-size: 18px;
-        font-weight: normal;
+        font-size: 16.24px;
+        font-weight: 300 !important;
         margin-top: -10px;
         position: absolute;
         top: 57px;
@@ -289,25 +294,25 @@
     }
     .card img{
         position: absolute;
-        right: 35px;
+        right: 25px;
         top: 15px;
-        height: 60px;
+        height: 56.272px;
     }
     .gray {
         color: #00ac90;
         background: #d6d7d7 !important;
-        height: 60px;
+        height: 55.551px;
         text-align: center;
         font-weight: bold;
     }  
     .gray h5 {
-        font-size: 45px;
-        line-height: 70%;
+        font-size: 38.6px;
+        line-height: 80%;
         font-weight: bold;
     }
     .gray span {
-        font-weight: 600;
-        font-size: 30px;
+        font-weight: 400;
+        font-size: 24.89px;
     }
     .lista-precios {
         padding-bottom: 20px;
@@ -316,19 +321,18 @@
         list-style-type: none;
     }
     .lista-precios li {
-        /* background: url("../img/assets/Asset7.png") no-repeat; */
         position: relative;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
         padding-left: 45px;
-        font-weight: normal;
+        font-weight: 300;
         color: #626262;
-        font-size: 19px;
+        font-size: 17.79px;
     }
     .lista-precios li:before {
         position: absolute;
         left: 5px;
-        top: 10px;
+        top: 15px;
         content: url("../img/assets/Asset7.png");
     }
     .lista-precios li:nth-of-type(1) {
@@ -336,7 +340,7 @@
         border-top: none;
     }
     .lista-precios li strong {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
     }
     .head {
@@ -360,14 +364,17 @@
     #comercial li strong{
         color: #343740;
     }
-/* /Precios */
-
-/* data */
-    .di {
-        min-height: 100px;
-        color: white;
+    #i img{
+        position: absolute;
+        left: 25px;
+        top: 15px;
+        width: 20px;
     }
-/* /data2 */
+    #i p {
+        padding-left: 45px;
+        font-size: 17.79px;
+    }
+/* /Precios */
 
 /* condiciones */
     #lista-raya {
