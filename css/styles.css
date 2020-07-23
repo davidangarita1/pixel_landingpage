@@ -85,11 +85,19 @@
         color: white;
     }
 
-    #info p, #info h3 {
-        font-weight: 700;
+    #info p {
+        font-weight: 500 !important;
+        font-size: 14px !important;
+        
+    }
+    #info h3 {
+        font-weight: bold !important;
+        font-size: 29px !important;
+        letter-spacing: 1px;
+        font-family: 'Ubuntu';
     }
     #brillo, #lupa, #camara {
-        max-height: 250px;
+        height: 284px;
         display: grid;
         justify-content: center;
     }
@@ -108,13 +116,20 @@
         text-align: justify;
     }
 
-    #brillo img, #lupa img, #camara img{
+    #brillo img{
         justify-self: center;
-        height: 50px;
+        height: 34.54px;
+        width: 34.54px;
     }
-
     #lupa img {
-        padding-bottom: 10px;
+        justify-self: center;
+        height: 36.615px;
+        width: 33.4px;
+    }
+    #camara img {
+        justify-self: center;
+        height: 25.546px;
+        width: 32px;
     }
 /* /Info */
 
@@ -142,10 +157,14 @@
     .articles h4 {
         color: #07AC8F;
         text-transform: capitalize;
+        font-weight: bold !important;
+        font-size: 25px !important;
     }
 
     .articles p {
         color: white;
+        font-weight: 400 !important;
+        font-size: 17px !important;
     }
 
     .articles li {
