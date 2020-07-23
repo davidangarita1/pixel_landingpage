@@ -34,6 +34,12 @@
     #vistas p {
         padding-right: 0px;
     }
+    #condiciones .puzzle {
+        margin-left: 0px;
+    }
+    #condiciones .condi {
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -82,6 +88,11 @@
         justify-content: center;
         align-items: center;
     }
+    #precios .col-12 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
     #condiciones .contenedor .col-12:nth-of-type(1) {
         display: grid;
         justify-content: center;
@@ -91,6 +102,16 @@
         display: grid;
         justify-content: center;
         align-items: center;
+    }
+    #i{
+        padding-left: 50px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #i img{
+        left: 50px;
+        top: 15px;
+        width: 22px;
     }
 }
 
