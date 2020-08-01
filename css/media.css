@@ -150,4 +150,13 @@
     #lista-raya i{
         margin-bottom: 30px;
     }
+    #contacto h2 {
+        font-size: 35px;
+    }
+    #contacto h3 a {
+        font-size: 22px;
+    }
+    .card {
+        max-width: 320px;
+    }
 }
